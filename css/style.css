@@ -1,0 +1,246 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.bodyCaixa{
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+    width: 800px;
+    height: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 0 auto;  /*centraliza a caixa no meio da tela*/
+}
+
+.bodyLabel{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.headerCaixa{
+    border: 1px solid #000; /*borda em volta*/
+    padding: 10px; /*espaço dentro da caixa*/
+    position: relative; /*deixa a caixa parada (base pra outras coisas)*/
+    width: 750px; /*largura*/
+    height: 65px; /*altura*/
+    display: flex; /*facilita a organizar coisas dentro da caixa*/
+    align-items: center; /*alinha as coisas de dentro dessa caixa pro centro*/
+    justify-content: space-between; /*joga o primeiro item pra esquerda, o último pra direita, e distribui os outros igualmente no meio*/
+    padding-top: 25px; /*espaço extra em cima*/
+    margin-top: -360px;
+    margin-left: 12px;
+}
+
+.headerLabel{
+    position: absolute;
+    top: 7px;
+    left: 2px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.navCaixa{
+    border: 1px solid #000; /*borda em volta*/
+    padding: 10px; /*espaço dentro da caixa*/
+    position: relative; /*deixa a caixa parada (base pra outras coisas)*/
+    width: 210px; /*largura*/
+    height: 8px; /*altura*/
+    display: flex; /*facilita a organizar coisas dentro da caixa*/
+    align-items: center; /*alinha as coisas de dentro dessa caixa pro centro*/
+    justify-content: space-between; /*joga o primeiro item pra esquerda, o último pra direita, e distribui os outros igualmente no meio*/
+    padding-top: 25px; /*espaço extra em cima*/
+    margin-top: -15px;
+    margin-left: 505px;
+}
+
+.navLabel{
+    position: absolute;
+    top: 15px;
+    left: 95px;
+    font-size: 13px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.mainCaixa{
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+    width: 750px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-top: 60px;
+    margin-left: -780px;
+}
+
+.mainLabel{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.sectionCaixa{
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+    width: 450px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-top: -15px;
+    margin-left: 35px;
+}
+
+.sectionLabel{
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.asideCaixa{
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.asideLabel{
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.article1Caixa{
+    border: 1px solid #000;
+    padding: 10px;
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-top: -190px;
+    margin-left: 0px;
+}
+
+.article1Label{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.article2Caixa{
+    border: 1px solid #000;
+    padding: 10px;
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-top: -100px;
+    margin-left: 0px;
+}
+
+.article2Label{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.article3Caixa{
+    border: 1px solid #000;
+    padding: 10px;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+
+.article3Label{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.footerCaixa{
+    border: 1px solid #000; /*borda em volta*/
+    padding: 10px; /*espaço dentro da caixa*/
+    position: relative; /*deixa a caixa parada (base pra outras coisas)*/
+    width: 750px; /*largura*/
+    height: 65px; /*altura*/
+    display: flex; /*facilita a organizar coisas dentro da caixa*/
+    align-items: center; /*alinha as coisas de dentro dessa caixa pro centro*/
+    justify-content: space-between; /*joga o primeiro item pra esquerda, o último pra direita, e distribui os outros igualmente no meio*/
+    padding-top: 25px; /*espaço extra em cima*/
+    margin-top: 720px;
+    margin-left: -788px;
+}
+
+.footerLabel{
+    position: absolute;
+    top: 40px;
+    left: 350px;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
